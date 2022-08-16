@@ -1,7 +1,11 @@
+import { Intro } from './Components/Intro'
+
+import { HomePageContainer } from './styles'
+
 export const HomePage = () => {
   return (
-    <>
-      <h1>Home Page</h1>
-    </>
+    <HomePageContainer>
+      <Intro />
+    </HomePageContainer>
   )
 }
