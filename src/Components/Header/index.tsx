@@ -4,8 +4,10 @@ import { HeaderButton, HeaderButtonsContainer, HeaderContainer } from './styles'
 
 import logoCoffeeDelivery from '../../assets/logo-coffee-delivery.svg'
 import { NavLink } from 'react-router-dom'
+import { useCart } from '../../hooks/useCart'
 
 export const Header = () => {
+  const { cartQuantity } = useCart()
   return (
     <HeaderContainer>
       <div className="container">
@@ -22,6 +24,7 @@ export const Header = () => {
           </HeaderButton>
           <NavLink to="/complete-order">
             <HeaderButton variant="yellow">
+              {cartQuantity >= 1 && <span>{cartQuantity}</span>}
               <ShoppingCart size={20} weight="fill" />
             </HeaderButton>
           </NavLink>
