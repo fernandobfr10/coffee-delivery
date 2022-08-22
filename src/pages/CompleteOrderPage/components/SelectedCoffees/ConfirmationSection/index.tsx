@@ -33,7 +33,7 @@ export const ConfirmationSection = () => {
           R$ {formattedCartTotal}
         </RegularText>
       </div>
-      <Button text="Confirmar Pedido" disabled={!cartQuantity} />
+      <Button text="Confirmar Pedido" disabled={!cartQuantity} type="submit" />
     </ConfirmationSectionContainer>
   )
 }
