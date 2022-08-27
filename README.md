@@ -15,6 +15,12 @@ O projeto trata-se de um serviço de vendas de café com entrega. No desafio nã
 - Zod (Para validação do formulário)
 - Immer (Para alteração de estado)
 
+### 🛠️ Para rodar o projeto
+
+1. Realizar o clone ou o download do repositório;
+2. Executar `npm install` ou `yarn install` para instalar as dependências;
+3. Executar `npm run dev` ou `yarn dev` para rodar a aplicação;
+
 <br />
 
 <div align="center">
@@ -22,24 +28,33 @@ O projeto trata-se de um serviço de vendas de café com entrega. No desafio nã
   <img src="https://user-images.githubusercontent.com/71772559/178192066-d52e0cf7-906e-4baa-80f3-4b49dde153c0.png" />
   </a>
 
+  <br />
+
   <a href="https://www.figma.com/file/tWf2U82tDh3QqgXzxUUdjq/Coffee-Delivery?node-id=0%3A1" target="_blank">
   <img src="https://user-images.githubusercontent.com/71772559/178192253-4fe4757c-de57-4878-a38c-a483c25670b1.png" />
   </a>
 </div>
 
 <br />
+<br />
 
 <div align="center">
   <img src="./src/assets/previews/header_hero.png" align="center" width="600px" />
 </div>
 
+<br />
+
 <div align="center">
   <img src="./src/assets/previews/main.png" align="center" width="600px" />
 </div>
 
+<br />
+
 <div align="center">
   <img src="./src/assets/previews/complete.png" align="center" width="600px" />
 </div>
+
+<br />
 
 <div align="center">
   <img src="./src/assets/previews/confirmed.png" align="center" width="600px" />
